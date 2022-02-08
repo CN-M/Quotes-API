@@ -10,8 +10,6 @@ function generateQuote() {
     return quotes[randomNumber]
 }
 
-
-
 app.listen(
     PORT,
     () => console.log(`Alive on Port: ${PORT}`)
